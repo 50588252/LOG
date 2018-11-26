@@ -1,0 +1,26 @@
+<!DOCTYPE configuration
+ PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+ "http://mybatis.org/dtd/mybatis-3-config.dtd">
+
+ <configuration>
+ 	<!-- 引入数据库步骤 
+ 	<properties resource="db.properties"></properties>	-->
+ 	<settings>
+        <!-- 打印查询语句 -->
+        <setting name="logImpl" value="STDOUT_LOGGING" />
+        <!-- 配置二级缓存 -->
+        <setting name="cacheEnabled" value="true"/>
+        <!-- 配置懒加载 -->
+        <setting name="lazyLoadingEnabled" value="false" />
+    </settings>
+    
+    
+ 	<!-- 定义别名 -->
+ 	<typeAliases>
+ 		<typeAlias type="com.web.pojo.User"  alias="user"/>
+ 		<typeAlias type="com.web.pojo.House"  alias="house"/>
+ 		<typeAlias type="com.web.pojo.AllEmp"  alias="AllEmp"/>
+ 	</typeAliases>
+ 	
+
+ </configuration>
