@@ -33,12 +33,6 @@ public class HouseListAction {
 	}
 	private Logger logger = Logger.getLogger(HouseListAction.class);
 	
-	//首页遍历
-	@RequestMapping("/admin")
-	public String helloWorld(){
-		System.out.println("HelloWorld");
-		return "index";
-	}
 	/**
 	 * 带数据返回后台
 	 * 通过modelandview对象封装视图以及数据

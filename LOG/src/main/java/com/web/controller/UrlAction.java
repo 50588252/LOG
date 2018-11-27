@@ -19,7 +19,14 @@ public class UrlAction {
 	public void setHouseService(HouseServiceImpl houseService) {
 		this.houseService = houseService;
 	}
-
+	//首页遍历
+	@RequestMapping("/admin")
+	public String helloWorld2(){
+		System.out.println("HelloWorld");
+		return "index";
+	}
+	
+	
 	// 做部分网页跳转
 	@RequestMapping("/left")
 	public String helloWorld() {
@@ -40,16 +47,54 @@ public class UrlAction {
 		System.out.println("HelloWorld");
 		return "files/mainFrame";
 	}
-	// 主网页跳转
+	// 客户增加网页跳转
 	@RequestMapping("/cus_add")
 	public String cus_add() {
 		System.out.println("HelloWorld");
 		return "files/cus_add";
 	}
-	// 主网页跳转
+	// 主客户修改信息跳转
 	@RequestMapping("/cus_alter")
 	public String cus_alter() {
 		System.out.println("HelloWorld");
 		return "files/cus_alter";
+	}
+	// 客户预约信息网页跳转
+	@RequestMapping("/cus_order")
+	public String cus_order() {
+		System.out.println("HelloWorld");
+		return "files/cus_order";
+	}
+	
+	// 客户预约信息网页跳转
+	@RequestMapping("/order_new")
+	public String order_new() {
+		System.out.println("HelloWorld");
+		return "files/order_new";
+	}
+	
+	// 客户预约信息网页跳转
+	@RequestMapping("/order_search")
+	public String order_search() {
+		System.out.println("HelloWorld");
+		return "files/order_search";
+	}
+	// 客户预约信息网页跳转
+	@RequestMapping("/order_change")
+	public String order_change() {
+		System.out.println("HelloWorld");
+		return "files/order_change";
+	}
+	// 客户预约信息网页跳转
+	@RequestMapping("/order_cancel")
+	public String order_cancel() {
+		System.out.println("HelloWorld");
+		return "files/order_cancel";
+	}
+	// 客户预约信息网页跳转
+	@RequestMapping("/order_quit")
+	public String order_quit() {
+		System.out.println("HelloWorld");
+		return "files/order_quit";
 	}
 }

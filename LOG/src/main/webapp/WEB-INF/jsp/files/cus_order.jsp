@@ -90,7 +90,10 @@ function link(){
 				<input name="textfield" type="text" size="12" readonly="readonly"/>
 				<span class="newfont06">至</span>
 				<input name="textfield" type="text" size="12" readonly="readonly"/>
-				<input name="Submit4" type="button" class="right-button02" value="查 询" /></td>	
+				<input name="Submit4" type="button" class="right-button02" value="查 询" /></td>
+			   <td width="144" align="left"><a href="#" onclick="sousuo()">
+			     <input name="Submit3" type="button" class="right-button07" value="高级搜索" />
+			   </a></td>	
 		    </tr>
           </table></td>
         </tr>

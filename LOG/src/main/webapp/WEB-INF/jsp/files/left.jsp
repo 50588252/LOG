@@ -112,15 +112,11 @@ function list(idstr){
 				</tr>
 				<tr>
 				  <td width="9%" height="20" ><img id="xiaotu20" src="<%=request.getContextPath()%>/static/images/ico06.gif" width="8" height="12" /></td>
-				  <td width="91%"><a href="addrenwu.htm" target="mainFrame" class="left-font03" onClick="tupian('20');">客户信息查询/编辑</a></td>
+				  <td width="91%"><a href="cus_alter" target="mainFrame" class="left-font03" onClick="tupian('20');">客户信息查询/编辑</a></td>
 				</tr>
 				<tr>
 				  <td width="9%" height="21" ><img id="xiaotu21" src="<%=request.getContextPath()%>/static/images/ico06.gif" width="8" height="12" /></td>
-				  <td width="91%"><a href="listrenwu.htm" target="mainFrame" class="left-font03" onClick="tupian('21');">客户订购记录查询</a></td>
-				</tr>
-				<tr>
-				  <td width="9%" height="21" ><img id="xiaotu21" src="<%=request.getContextPath()%>/static/images/ico06.gif" width="8" height="12" /></td>
-				  <td width="91%"><a href="listrenwu.htm" target="mainFrame" class="left-font03" onClick="tupian('21');">售后服务</a></td>
+				  <td width="91%"><a href="cus_order" target="mainFrame" class="left-font03" onClick="tupian('21');">客户订购记录查询</a></td>
 				</tr>
        </table>
 		<!--  任务系统结束    -->
@@ -146,29 +142,29 @@ function list(idstr){
 				<tr>
 				  <td width="9%" height="20" ><img id="xiaotu17" src="<%=request.getContextPath()%>/static/images/ico06.gif" width="8" height="12" /></td>
 				  <td width="91%">
-						<a href="sendxiaoxi.htm" target="mainFrame" class="left-font03" onClick="tupian('17');">新增订单</a></td>
+						<a href="order_new" target="mainFrame" class="left-font03" onClick="tupian('17');">新增订单</a></td>
 				</tr>
 				<tr>
 				  <td width="9%" height="20" ><img id="xiaotu18" src="<%=request.getContextPath()%>/static/images/ico06.gif" width="8" height="12" /></td>
 				  <td width="91%">
-					<a href="listtakexiaoxi.htm" target="mainFrame" class="left-font03" onClick="tupian('18');">查找订单</a></td>
+					<a href="order_search" target="mainFrame" class="left-font03" onClick="tupian('18');">订单查询</a></td>
 				</tr>
 				<tr>
 				  <td width="9%" height="20" ><img id="xiaotu19" src="<%=request.getContextPath()%>/static/images/ico06.gif" width="8" height="12" /></td>
 				  <td width="91%">
-						<a href="listsendxiaoxi.htm" target="mainFrame" class="left-font03" onClick="tupian('19');">取消订单
+						<a href="order_cancel" target="mainFrame" class="left-font03" onClick="tupian('19');">取消订单
 							</a></td>
 				</tr>
 				<tr>
 				  <td width="9%" height="20" ><img id="xiaotu24" src="<%=request.getContextPath()%>/static/images/ico06.gif" width="8" height="12" /></td>
 				  <td width="91%">
-						<a href="listxiaoxi.htm" target="mainFrame" class="left-font03" onClick="tupian('24');">修改订单
+						<a href="order_change" target="mainFrame" class="left-font03" onClick="tupian('24');">换货处理
 							</a></td>
 				</tr>
 				<tr>
 				  <td width="9%" height="20" ><img id="xiaotu24" src="<%=request.getContextPath()%>/static/images/ico06.gif" width="8" height="12" /></td>
 				  <td width="91%">
-						<a href="listxiaoxi.htm" target="mainFrame" class="left-font03" onClick="tupian('24');">修改订单纪录
+						<a href="order_quit" target="mainFrame" class="left-font03" onClick="tupian('24');">退货处理
 							</a></td>
 				</tr>
       </table>
