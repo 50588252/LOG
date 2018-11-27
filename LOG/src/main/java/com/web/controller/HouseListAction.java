@@ -34,7 +34,7 @@ public class HouseListAction {
 	private Logger logger = Logger.getLogger(HouseListAction.class);
 	
 	//首页遍历
-	@RequestMapping("/index")
+	@RequestMapping("/admin")
 	public String helloWorld(){
 		System.out.println("HelloWorld");
 		return "index";
