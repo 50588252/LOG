@@ -107,19 +107,19 @@ function list(idstr){
 		<table id="subtree8" style="DISPLAY: none" width="80%" border="0" align="center" cellpadding="0" 
 				cellspacing="0" class="left-table02">
 				<tr>
-				  <td width="9%" height="20" ><img id="xiaotu20" src="../images/ico06.gif" width="8" height="12" /></td>
-				  <td width="91%"><a href="addrenwu.htm" target="mainFrame" class="left-font03" onClick="tupian('20');">登记新客户</a></td>
+				  <td width="9%" height="20" ><img id="xiaotu20" src="<%=request.getContextPath()%>/static/images/ico06.gif" width="8" height="12" /></td>
+				  <td width="91%"><a href="cus_add" target="mainFrame" class="left-font03" onClick="tupian('20');">登记新客户</a></td>
 				</tr>
 				<tr>
-				  <td width="9%" height="20" ><img id="xiaotu20" src="../images/ico06.gif" width="8" height="12" /></td>
-				  <td width="91%"><a href="addrenwu.htm" target="mainFrame" class="left-font03" onClick="tupian('20');">修改老客户</a></td>
+				  <td width="9%" height="20" ><img id="xiaotu20" src="<%=request.getContextPath()%>/static/images/ico06.gif" width="8" height="12" /></td>
+				  <td width="91%"><a href="addrenwu.htm" target="mainFrame" class="left-font03" onClick="tupian('20');">客户信息查询/编辑</a></td>
 				</tr>
 				<tr>
-				  <td width="9%" height="21" ><img id="xiaotu21" src="../images/ico06.gif" width="8" height="12" /></td>
+				  <td width="9%" height="21" ><img id="xiaotu21" src="<%=request.getContextPath()%>/static/images/ico06.gif" width="8" height="12" /></td>
 				  <td width="91%"><a href="listrenwu.htm" target="mainFrame" class="left-font03" onClick="tupian('21');">客户订购记录查询</a></td>
 				</tr>
 				<tr>
-				  <td width="9%" height="21" ><img id="xiaotu21" src="../images/ico06.gif" width="8" height="12" /></td>
+				  <td width="9%" height="21" ><img id="xiaotu21" src="<%=request.getContextPath()%>/static/images/ico06.gif" width="8" height="12" /></td>
 				  <td width="91%"><a href="listrenwu.htm" target="mainFrame" class="left-font03" onClick="tupian('21');">售后服务</a></td>
 				</tr>
        </table>
@@ -133,7 +133,7 @@ function list(idstr){
             <td height="29">
 				<table width="85%" border="0" align="center" cellpadding="0" cellspacing="0">
 					<tr>
-						<td width="8%"><img name="img7" id="img7" src="../images/ico04.gif" width="8" height="11" /></td>
+						<td width="8%"><img name="img7" id="img7" src="<%=request.getContextPath()%>/static/images/ico04.gif" width="8" height="11" /></td>
 						<td width="92%">
 								<a href="javascript:" target="mainFrame" class="left-font03" onClick="list('7');" >订单管理</a></td>
 					</tr>
@@ -144,29 +144,29 @@ function list(idstr){
 		<table id="subtree7" style="DISPLAY: none" width="80%" border="0" align="center" cellpadding="0" 
 				cellspacing="0" class="left-table02">
 				<tr>
-				  <td width="9%" height="20" ><img id="xiaotu17" src="../images/ico06.gif" width="8" height="12" /></td>
+				  <td width="9%" height="20" ><img id="xiaotu17" src="<%=request.getContextPath()%>/static/images/ico06.gif" width="8" height="12" /></td>
 				  <td width="91%">
 						<a href="sendxiaoxi.htm" target="mainFrame" class="left-font03" onClick="tupian('17');">新增订单</a></td>
 				</tr>
 				<tr>
-				  <td width="9%" height="20" ><img id="xiaotu18" src="../images/ico06.gif" width="8" height="12" /></td>
+				  <td width="9%" height="20" ><img id="xiaotu18" src="<%=request.getContextPath()%>/static/images/ico06.gif" width="8" height="12" /></td>
 				  <td width="91%">
 					<a href="listtakexiaoxi.htm" target="mainFrame" class="left-font03" onClick="tupian('18');">查找订单</a></td>
 				</tr>
 				<tr>
-				  <td width="9%" height="20" ><img id="xiaotu19" src="../images/ico06.gif" width="8" height="12" /></td>
+				  <td width="9%" height="20" ><img id="xiaotu19" src="<%=request.getContextPath()%>/static/images/ico06.gif" width="8" height="12" /></td>
 				  <td width="91%">
 						<a href="listsendxiaoxi.htm" target="mainFrame" class="left-font03" onClick="tupian('19');">取消订单
 							</a></td>
 				</tr>
 				<tr>
-				  <td width="9%" height="20" ><img id="xiaotu24" src="../images/ico06.gif" width="8" height="12" /></td>
+				  <td width="9%" height="20" ><img id="xiaotu24" src="<%=request.getContextPath()%>/static/images/ico06.gif" width="8" height="12" /></td>
 				  <td width="91%">
 						<a href="listxiaoxi.htm" target="mainFrame" class="left-font03" onClick="tupian('24');">修改订单
 							</a></td>
 				</tr>
 				<tr>
-				  <td width="9%" height="20" ><img id="xiaotu24" src="../images/ico06.gif" width="8" height="12" /></td>
+				  <td width="9%" height="20" ><img id="xiaotu24" src="<%=request.getContextPath()%>/static/images/ico06.gif" width="8" height="12" /></td>
 				  <td width="91%">
 						<a href="listxiaoxi.htm" target="mainFrame" class="left-font03" onClick="tupian('24');">修改订单纪录
 							</a></td>
@@ -183,7 +183,7 @@ function list(idstr){
             <td height="29">
 				<table width="85%" border="0" align="center" cellpadding="0" cellspacing="0">
 					<tr>
-						<td width="8%"><img name="img1" id="img1" src="../images/ico04.gif" width="8" height="11" /></td>
+						<td width="8%"><img name="img1" id="img1" src="<%=request.getContextPath()%>/static/images/ico04.gif" width="8" height="11" /></td>
 						<td width="92%">
 								<a href="javascript:" target="mainFrame" class="left-font03" onClick="list('1');" >商品配送管理</a></td>
 					</tr>
@@ -194,11 +194,11 @@ function list(idstr){
 		<table id="subtree1" style="DISPLAY: none" width="80%" border="0" align="center" cellpadding="0" 
 				cellspacing="0" class="left-table02">
 				<tr>
-				  <td width="9%" height="20" ><img id="xiaotu1" src="../images/ico06.gif" width="8" height="12" /></td>
+				  <td width="9%" height="20" ><img id="xiaotu1" src="<%=request.getContextPath()%>/static/images/ico06.gif" width="8" height="12" /></td>
 				  <td width="91%"><a href="listxiangmuxinxi.htm" target="mainFrame" class="left-font03" onClick="tupian('1');">本地配送</a></td>
 				</tr>
 				<tr>
-				  <td width="9%" height="20" ><img id="xiaotu4" src="../images/ico06.gif" width="8" height="12" /></td>
+				  <td width="9%" height="20" ><img id="xiaotu4" src="<%=request.getContextPath()%>/static/images/ico06.gif" width="8" height="12" /></td>
 				  <td width="91%"><a href="listjihua.htm" target="mainFrame" class="left-font03" onClick="tupian('4');">异地配送</a></td>
 				</tr>
       </table>
@@ -209,7 +209,7 @@ function list(idstr){
           <tr>
             <td height="29"><table width="85%" border="0" align="center" cellpadding="0" cellspacing="0">
                 <tr>
-                  <td width="8%" height="12"><img name="img2" id="img2" src="../images/ico04.gif" width="8" height="11" /></td>
+                  <td width="8%" height="12"><img name="img2" id="img2" src="<%=request.getContextPath()%>/static/images/ico04.gif" width="8" height="11" /></td>
                   <td width="92%"><a href="javascript:" target="mainFrame" class="left-font03" onClick="list('2');" >库房管理</a></td>
                 </tr>
             </table></td>
@@ -219,23 +219,23 @@ function list(idstr){
 	  <table id="subtree2" style="DISPLAY: none" width="80%" border="0" align="center" cellpadding="0" cellspacing="0" class="left-table02">
         
 		<tr>
-          <td width="9%" height="20" ><img id="xiaotu7" src="../images/ico06.gif" width="8" height="12" /></td>
+          <td width="9%" height="20" ><img id="xiaotu7" src="<%=request.getContextPath()%>/static/images/ico06.gif" width="8" height="12" /></td>
           <td width="91%"><a href="listkehuxinxi.html" target="mainFrame" class="left-font03" onClick="tupian('7');">购货入库</a></td>
         </tr>
 		<tr>
-          <td width="9%" height="20" ><img id="xiaotu7" src="../images/ico06.gif" width="8" height="12" /></td>
+          <td width="9%" height="20" ><img id="xiaotu7" src="<%=request.getContextPath()%>/static/images/ico06.gif" width="8" height="12" /></td>
           <td width="91%"><a href="listkehuxinxi.html" target="mainFrame" class="left-font03" onClick="tupian('7');">商品出库</a></td>
         </tr>
 		<tr>
-          <td width="9%" height="20" ><img id="xiaotu7" src="../images/ico06.gif" width="8" height="12" /></td>
+          <td width="9%" height="20" ><img id="xiaotu7" src="<%=request.getContextPath()%>/static/images/ico06.gif" width="8" height="12" /></td>
           <td width="91%"><a href="listkehuxinxi.html" target="mainFrame" class="left-font03" onClick="tupian('7');">打印出库记录</a></td>
         </tr>
 		<tr>
-          <td width="9%" height="20" ><img id="xiaotu7" src="../images/ico06.gif" width="8" height="12" /></td>
+          <td width="9%" height="20" ><img id="xiaotu7" src="<%=request.getContextPath()%>/static/images/ico06.gif" width="8" height="12" /></td>
           <td width="91%"><a href="listkehuxinxi.html" target="mainFrame" class="left-font03" onClick="tupian('7');">商品入库纪录</a></td>
         </tr>
 		<tr>
-          <td width="9%" height="20" ><img id="xiaotu7" src="../images/ico06.gif" width="8" height="12" /></td>
+          <td width="9%" height="20" ><img id="xiaotu7" src="<%=request.getContextPath()%>/static/images/ico06.gif" width="8" height="12" /></td>
           <td width="91%"><a href="listkehuxinxi.html" target="mainFrame" class="left-font03" onClick="tupian('7');">退换记录</a></td>
         </tr>
       </table>
@@ -247,7 +247,7 @@ function list(idstr){
           <tr>
             <td height="29"><table width="85%" border="0" align="center" cellpadding="0" cellspacing="0">
                 <tr>
-                  <td width="8%" height="12"><img name="img3" id="img3" src="../images/ico04.gif" width="8" height="11" /></td>
+                  <td width="8%" height="12"><img name="img3" id="img3" src="<%=request.getContextPath()%>/static/images/ico04.gif" width="8" height="11" /></td>
                   <td width="92%"><a href="javascript:" target="mainFrame" class="left-font03" onClick="list('3');" >财务管理</a></td>
                 </tr>
             </table></td>
@@ -256,19 +256,19 @@ function list(idstr){
 	  
 	  <table id="subtree3" style="DISPLAY: none" width="80%" border="0" align="center" cellpadding="0" cellspacing="0" class="left-table02">
         <tr>
-          <td width="9%" height="20" ><img id="xiaotu8" src="../images/ico06.gif" width="8" height="12" /></td>
+          <td width="9%" height="20" ><img id="xiaotu8" src="<%=request.getContextPath()%>/static/images/ico06.gif" width="8" height="12" /></td>
           <td width="91%"><a href="listyuangong.html" target="mainFrame" class="left-font03" onClick="tupian('8');">与分站结算</a></td>
         </tr>
 		<tr>
-          <td width="9%" height="20" ><img id="xiaotu9" src="../images/ico06.gif" width="8" height="12" /></td>
+          <td width="9%" height="20" ><img id="xiaotu9" src="<%=request.getContextPath()%>/static/images/ico06.gif" width="8" height="12" /></td>
           <td width="91%"><a href="listzhiwu.htm" target="mainFrame" class="left-font03" onClick="tupian('9');">与供应商结算</a></td>
         </tr>
 		<tr>
-          <td width="9%" height="20" ><img id="xiaotu10" src="../images/ico06.gif" width="8" height="12" /></td>
+          <td width="9%" height="20" ><img id="xiaotu10" src="<%=request.getContextPath()%>/static/images/ico06.gif" width="8" height="12" /></td>
           <td width="91%"><a href="listMonthYuanGongGongZi.htm" target="mainFrame" class="left-font03" onClick="tupian('10');">发票默认登记</a></td>
         </tr>
 		<tr>
-          <td width="9%" height="20" ><img id="xiaotu10" src="../images/ico06.gif" width="8" height="12" /></td>
+          <td width="9%" height="20" ><img id="xiaotu10" src="<%=request.getContextPath()%>/static/images/ico06.gif" width="8" height="12" /></td>
           <td width="91%"><a href="listMonthYuanGongGongZi.htm" target="mainFrame" class="left-font03" onClick="tupian('10');">发票查询</a></td>
         </tr>
       </table>
@@ -280,7 +280,7 @@ function list(idstr){
           <tr>
             <td height="29"><table width="85%" border="0" align="center" cellpadding="0" cellspacing="0">
                 <tr>
-                  <td width="8%" height="12"><img name="img4" id="img4" src="../images/ico04.gif" width="8" height="11" /></td>
+                  <td width="8%" height="12"><img name="img4" id="img4" src="<%=request.getContextPath()%>/static/images/ico04.gif" width="8" height="11" /></td>
                   <td width="92%"><a href="javascript:" target="mainFrame" class="left-font03" onClick="list('4');" >物流分站</a></td>
                 </tr>
             </table></td>
@@ -289,15 +289,15 @@ function list(idstr){
 	  
 	  <table id="subtree4" style="DISPLAY: none" width="80%" border="0" align="center" cellpadding="0" cellspacing="0" class="left-table02">
 		<tr>
-          <td width="9%" height="20" ><img id="xiaotu11" src="../images/ico06.gif" width="8" height="12" /></td>
+          <td width="9%" height="20" ><img id="xiaotu11" src="<%=request.getContextPath()%>/static/images/ico06.gif" width="8" height="12" /></td>
           <td width="91%"><a href="listGongZiType.htm" target="mainFrame" class="left-font03" onClick="tupian('11');">员工管理</a></td>
         </tr>
 	  	<tr>
-          <td width="9%" height="20" ><img id="xiaotu12" src="../images/ico06.gif" width="8" height="12" /></td>
+          <td width="9%" height="20" ><img id="xiaotu12" src="<%=request.getContextPath()%>/static/images/ico06.gif" width="8" height="12" /></td>
           <td width="91%"><a href="listMonthYuanGongGongZi.htm" target="mainFrame" class="left-font03" onClick="tupian('12');">车辆管理</a></td>
         </tr>
 		<tr>
-          <td width="9%" height="20" ><img id="xiaotu12" src="../images/ico06.gif" width="8" height="12" /></td>
+          <td width="9%" height="20" ><img id="xiaotu12" src="<%=request.getContextPath()%>/static/images/ico06.gif" width="8" height="12" /></td>
           <td width="91%"><a href="listMonthYuanGongGongZi.htm" target="mainFrame" class="left-font03" onClick="tupian('12');">收款与发票分发管理</a></td>
         </tr>
       </table>
@@ -309,7 +309,7 @@ function list(idstr){
           <tr>
             <td height="29"><table width="85%" border="0" align="center" cellpadding="0" cellspacing="0">
                 <tr>
-                  <td width="8%"><img name="img5" id="img5" src="../images/ico04.gif" width="8" height="11" /></td>
+                  <td width="8%"><img name="img5" id="img5" src="<%=request.getContextPath()%>/static/images/ico04.gif" width="8" height="11" /></td>
                   <td width="92%"><a href="javascript:" target="mainFrame" class="left-font03" onClick="list('5');">系统管理</a></td>
                 </tr>
             </table></td>
@@ -318,11 +318,11 @@ function list(idstr){
 
 	  <table id="subtree5" style="DISPLAY: none" width="80%" border="0" align="center" cellpadding="0" cellspacing="0" class="left-table02">
         <tr>
-          <td width="9%" height="20"><img id="xiaotu13" src="../images/ico06.gif" width="8" height="12" /></td>
+          <td width="9%" height="20"><img id="xiaotu13" src="<%=request.getContextPath()%>/static/images/ico06.gif" width="8" height="12" /></td>
           <td width="91%"><a href="register.html" target="mainFrame" class="left-font03" onClick="tupian('13');">添加用户</a></td>
         </tr>
         <tr>
-          <td height="20"><img id="xiaotu14" src="../images/ico06.gif" width="8" height="12" /></td>
+          <td height="20"><img id="xiaotu14" src="<%=request.getContextPath()%>/static/images/ico06.gif" width="8" height="12" /></td>
           <td><a href="addquanxian.html" target="mainFrame" class="left-font03" onClick="tupian('14');">添加角色</a></td>
         </tr>
       </table>
@@ -334,7 +334,7 @@ function list(idstr){
         <tr>
           <td height="29"><table width="85%" border="0" align="center" cellpadding="0" cellspacing="0">
               <tr>
-                <td width="8%"><img name="img6" id="img6" src="../images/ico04.gif" width="8" height="11" /></td>
+                <td width="8%"><img name="img6" id="img6" src="<%=request.getContextPath()%>/static/images/ico04.gif" width="8" height="11" /></td>
                 <td width="92%"><a href="mode.html" target="mainFrame" class="left-font03" onClick="list('6');">系统帮助</a></td>
               </tr>
           </table></td>
@@ -342,11 +342,11 @@ function list(idstr){
       </table>
 	  <table id="subtree6" style="DISPLAY: none" width="80%" border="0" align="center" cellpadding="0" cellspacing="0" class="left-table02">
         <tr>
-          <td width="9%" height="20"><img id="xiaotu15" src="../images/ico06.gif" width="8" height="12" /></td>
+          <td width="9%" height="20"><img id="xiaotu15" src="<%=request.getContextPath()%>/static/images/ico06.gif" width="8" height="12" /></td>
           <td width="91%"><a href="mode.html" target="mainFrame" class="left-font03" onClick="tupian('15');">用户手册</a></td>
         </tr>
         <tr>
-          <td height="20"><img id="xiaotu16" src="../images/ico06.gif" width="8" height="12" /></td>
+          <td height="20"><img id="xiaotu16" src="<%=request.getContextPath()%>/static/images/ico06.gif" width="8" height="12" /></td>
           <td><a href="mode.html" target="mainFrame" class="left-font03" onClick="tupian('16');">规章制度</a></td>
         </tr>
       </table>
@@ -359,7 +359,7 @@ function list(idstr){
             <td height="29">
 				<table width="85%" border="0" align="center" cellpadding="0" cellspacing="0">
 					<tr>
-						<td width="8%"><img name="img9" id="img9" src="../images/ico04.gif" width="8" height="11" /></td>
+						<td width="8%"><img name="img9" id="img9" src="<%=request.getContextPath()%>/static/images/ico04.gif" width="8" height="11" /></td>
 						<td width="92%">
 								<a href="javascript:" target="mainFrame" class="left-font03" onClick="list('9');" >个人管理</a></td>
 					</tr>
@@ -371,12 +371,12 @@ function list(idstr){
 		<table id="subtree9" style="DISPLAY: none" width="80%" border="0" align="center" cellpadding="0" 
 				cellspacing="0" class="left-table02">
 				<tr>
-				  <td width="9%" height="22" ><img id="xiaotu22" src="../images/ico06.gif" width="8" height="12" /></td>
+				  <td width="9%" height="22" ><img id="xiaotu22" src="<%=request.getContextPath()%>/static/images/ico06.gif" width="8" height="12" /></td>
 				  <td width="91%"><a href="listgerenxinxi.htm" target="mainFrame" class="left-font03" 
 						onClick="tupian('22');">个人信息查看</a></td>
 				</tr>
 				<tr>
-				  <td width="9%" height="23" ><img id="xiaotu23" src="../images/ico06.gif" width="8" height="12" /></td>
+				  <td width="9%" height="23" ><img id="xiaotu23" src="<%=request.getContextPath()%>/static/images/ico06.gif" width="8" height="12" /></td>
 				  <td width="91%"><a href="listgerenrenwu.htm" target="mainFrame" class="left-font03" 
 						onClick="tupian('23');">任务信息查看</a></td>
 				</tr>

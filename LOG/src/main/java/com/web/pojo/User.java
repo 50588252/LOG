@@ -1,35 +1,34 @@
 package com.web.pojo;
 
 public class User {
-	private int id;
-	private String name;
-	private String password;
-	private String telephone;
+	private int userid;
 	private String username;
-	private String isadmin;
-	public int getId() {
-		return id;
+	private String cardid;
+	private String phone;
+	private String site;
+	private String area;
+	private int role;
+	private String email;
+	private int post;
+	
+	
+	public int getPost() {
+		return post;
 	}
-	public void setId(int id) {
-		this.id = id;
+	public void setPost(int post) {
+		this.post = post;
 	}
-	public String getName() {
-		return name;
+	public String getEmail() {
+		return email;
 	}
-	public void setName(String name) {
-		this.name = name;
+	public void setEmail(String email) {
+		this.email = email;
 	}
-	public String getPassword() {
-		return password;
+	public int getUserid() {
+		return userid;
 	}
-	public void setPassword(String password) {
-		this.password = password;
-	}
-	public String getTelephone() {
-		return telephone;
-	}
-	public void setTelephone(String telephone) {
-		this.telephone = telephone;
+	public void setUserid(int userid) {
+		this.userid = userid;
 	}
 	public String getUsername() {
 		return username;
@@ -37,12 +36,39 @@ public class User {
 	public void setUsername(String username) {
 		this.username = username;
 	}
-	public String getIsadmin() {
-		return isadmin;
+	public String getCardid() {
+		return cardid;
 	}
-	public void setIsadmin(String isadmin) {
-		this.isadmin = isadmin;
+	public void setCardid(String cardid) {
+		this.cardid = cardid;
 	}
+	public String getPhone() {
+		return phone;
+	}
+	public void setPhone(String phone) {
+		this.phone = phone;
+	}
+	public String getSite() {
+		return site;
+	}
+	public void setSite(String site) {
+		this.site = site;
+	}
+	public String getArea() {
+		return area;
+	}
+	public void setArea(String area) {
+		this.area = area;
+	}
+	public int getRole() {
+		return role;
+	}
+	public void setRole(int role) {
+		this.role = role;
+	}
+	
+	
+	
 	
 	
 

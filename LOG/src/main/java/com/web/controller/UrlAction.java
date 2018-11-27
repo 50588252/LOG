@@ -20,24 +20,36 @@ public class UrlAction {
 		this.houseService = houseService;
 	}
 
-	// 网页跳转
+	// 做部分网页跳转
 	@RequestMapping("/left")
 	public String helloWorld() {
 		System.out.println("HelloWorld");
 		return "files/left";
 	}
 
-	// 网页跳转
+	// 顶部网页跳转
 	@RequestMapping("/top")
 	public String top() {
 		System.out.println("HelloWorld");
 		return "files/top";
 	}
 
-	// 网页跳转
+	// 主网页跳转
 	@RequestMapping("/main")
 	public String main() {
 		System.out.println("HelloWorld");
 		return "files/mainFrame";
+	}
+	// 主网页跳转
+	@RequestMapping("/cus_add")
+	public String cus_add() {
+		System.out.println("HelloWorld");
+		return "files/cus_add";
+	}
+	// 主网页跳转
+	@RequestMapping("/cus_alter")
+	public String cus_alter() {
+		System.out.println("HelloWorld");
+		return "files/cus_alter";
 	}
 }
