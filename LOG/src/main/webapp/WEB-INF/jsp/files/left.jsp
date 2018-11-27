@@ -216,23 +216,23 @@ function list(idstr){
         
 		<tr>
           <td width="9%" height="20" ><img id="xiaotu7" src="<%=request.getContextPath()%>/static/images/ico06.gif" width="8" height="12" /></td>
-          <td width="91%"><a href="listkehuxinxi.html" target="mainFrame" class="left-font03" onClick="tupian('7');">购货入库</a></td>
+          <td width="91%"><a href="putingoods" target="mainFrame" class="left-font03" onClick="tupian('7');">购货入库</a></td>
         </tr>
 		<tr>
           <td width="9%" height="20" ><img id="xiaotu7" src="<%=request.getContextPath()%>/static/images/ico06.gif" width="8" height="12" /></td>
-          <td width="91%"><a href="listkehuxinxi.html" target="mainFrame" class="left-font03" onClick="tupian('7');">商品出库</a></td>
+          <td width="91%"><a href="outgoods" target="mainFrame" class="left-font03" onClick="tupian('7');">商品出库</a></td>
         </tr>
 		<tr>
           <td width="9%" height="20" ><img id="xiaotu7" src="<%=request.getContextPath()%>/static/images/ico06.gif" width="8" height="12" /></td>
-          <td width="91%"><a href="listkehuxinxi.html" target="mainFrame" class="left-font03" onClick="tupian('7');">打印出库记录</a></td>
+          <td width="91%"><a href="outprint" target="mainFrame" class="left-font03" onClick="tupian('7');">打印出库记录</a></td>
         </tr>
 		<tr>
           <td width="9%" height="20" ><img id="xiaotu7" src="<%=request.getContextPath()%>/static/images/ico06.gif" width="8" height="12" /></td>
-          <td width="91%"><a href="listkehuxinxi.html" target="mainFrame" class="left-font03" onClick="tupian('7');">商品入库纪录</a></td>
+          <td width="91%"><a href="in_depart" target="mainFrame" class="left-font03" onClick="tupian('7');">商品入库纪录</a></td>
         </tr>
 		<tr>
           <td width="9%" height="20" ><img id="xiaotu7" src="<%=request.getContextPath()%>/static/images/ico06.gif" width="8" height="12" /></td>
-          <td width="91%"><a href="listkehuxinxi.html" target="mainFrame" class="left-font03" onClick="tupian('7');">退换记录</a></td>
+          <td width="91%"><a href="back_goods" target="mainFrame" class="left-font03" onClick="tupian('7');">退换记录</a></td>
         </tr>
       </table>
 
