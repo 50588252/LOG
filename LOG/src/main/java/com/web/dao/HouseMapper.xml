@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper 
+	PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- DAO实现类sql映射文件 -->	
+<mapper namespace="com.web.dao.IHouseDao">
+	<!-- 遍历所有 -->
+	<select id="getHouseList"  resultType="house">
+		select * from house
+	</select>
+</mapper>
