@@ -1,9 +1,4 @@
 <%@ page language="java" import="java.util.*" pageEncoding="UTF-8"%>
-<%
-String path = request.getContextPath();
-String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path+"/";
-%>
-
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
 <html lang="zh-cn">
 
@@ -11,8 +6,8 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 		<meta charset="utf-8" />
 		<title>苏州安曙达物流有限公司</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-		<link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/static/css/bootstrap.min.css" />
-		<link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/static/css/main.css" />
+		<link rel="stylesheet" type="text/css" href="static/css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="static/css/main.css" />
 	</head>
 
 	<body>
@@ -231,7 +226,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 					<li><a href="contact.html">联系我们</a></li>
 				</ul>
 				<p class="cpr">
-					Copyright © 2009-2011,All rights reserved
+					Copyright © 20017-2018,All rights reserved
 				</p>
 			</div>
 		</footer>
@@ -242,9 +237,9 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 				<li><a href="">在线留言</a></li>
 			</ul>
 		</div>
-		<script src="<%=request.getContextPath()%>/base/js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
-		<script src="<%=request.getContextPath()%>/base/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
-		<script src="base/js/main.js" type="text/javascript" charset="utf-8"></script>
+		<script src="static/js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="static/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="static/js/main.js" type="text/javascript" charset="utf-8"></script>
 	</body>
 
 </html>
