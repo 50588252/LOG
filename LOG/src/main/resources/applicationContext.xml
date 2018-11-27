@@ -27,9 +27,6 @@
 			</list>
 		</property>
 	</bean>
-
-	
-
 	<bean name="dataSource" class="com.alibaba.druid.pool.DruidDataSource"
 		init-method="init" destroy-method="close">
 		<property name="url" value="${datasource.read.url}" />

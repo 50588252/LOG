@@ -28,6 +28,18 @@ public class House implements Serializable{
 	private int user_id;
 	private int type_id;
 	private int street_id;
+	private User user;
+	
+	private List<User> list=new ArrayList<User>();
+	
+	
+	public List<User> getList() {
+		return list;
+	}
+
+	public void setList(List<User> list) {
+		this.list = list;
+	}
 
 	public int getStreet_id() {
 		return street_id;
@@ -119,7 +131,13 @@ public class House implements Serializable{
 		this.picpath = picpath;
 	}
 
+	public User getUser() {
+		return user;
+	}
 
+	public void setUser(User user) {
+		this.user = user;
+	}
 	
 
 
